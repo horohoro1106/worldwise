@@ -5,7 +5,7 @@ import styles from "./Login.module.css";
 import { useEffect, useState } from "react";
 import { Button } from "../../components/Button/Button";
 
-export function Login() {
+export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");

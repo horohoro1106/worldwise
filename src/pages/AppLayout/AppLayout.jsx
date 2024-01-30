@@ -3,7 +3,7 @@ import { Sidebar } from "../../components/Sidebar/Sidebar";
 import { User } from "../../components/User/User";
 import styles from "./AppLayout.module.css";
 
-export function AppLayout() {
+export default function AppLayout() {
   return (
     <div className={styles.app}>
       <Sidebar />
